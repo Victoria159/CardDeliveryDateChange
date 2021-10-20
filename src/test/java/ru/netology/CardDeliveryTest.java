@@ -7,7 +7,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
-import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -18,6 +17,7 @@ public class CardDeliveryTest {
     private SelenideElement planBtnElement;
     private SelenideElement replainElement;
     private SelenideElement planSuccessElement;
+
     @BeforeEach
     void setUp() {
 
